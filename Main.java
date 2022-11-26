@@ -29,6 +29,9 @@ public class Main {
             case "N":
                 System.out.println("Lipa, wróć jak się zastanowisz");
                 return;
+            case "n":
+                System.out.println("Lipa, wróć jak się zastanowisz");
+                return;
         }//Zapytanie użytkownika czy chce zagrać, odpowiedz Tak (Y) przechodzi dalej, Nie (N) kończy działanie programu
 
         int liczba = losowa.nextInt(10) + 1; //Generowanie liczby z przedziału 1-10 jak w zadaniu
